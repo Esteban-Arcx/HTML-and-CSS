@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--Le decimos al navegador que en este archivo todo el codigo que contiene es html:5-->
+
+
+<html lang="es">
+  <!--Es la etiqueta "padre" donde vivirá nuestro proyecto. El atributo lang establece el idioma del sitio web. 
+	Debemos usarlo para que el navegador pueda traducir nuestra página-->
+
+  <head>
+    <!-- 
+        En el head van todos los archivos importantes para el correcto funcionamiento de nuestra plataforma 
+        pero que no deben ser visibles por lo usuarios. Algunos de estos archivos pueden ser: 
+        - Frameworks
+        - Librerías
+        - Estilos
+        - Css
+        - Fuentes
+        - APIs
+    -->
+
+    <!-- Las etiquetas meta le van a dar cierta información al navegador para que sepa como tratar nuestro proyecto -->
+
+    <meta charset="UTF-8" />
+    <!--Este atributo nos ayuda a la hora de incluir caracteres especiales y emojis en nuestro proyecto-->
+
+    <meta name="description"content="Aprendiendo un poco de algunas etiquetas" />
+    <!--Muestra una descripción de nuestro sitio en los buscadores-->
+
+    <meta name="robots"content="index,follow" />
+    <!--Le dice a los robots de los navegadores que rastreen nuestra página y la muestran en las búsquedas que tengan relación con nuestro contenido-->
+
+    <title>Aprendiendo html</title>
+    <!--Título de nuestra página, no confundir con los H1-H6. Este titulo es el que ves en la pestaña del navegador-->
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--Nos ayuda a trabajar en proyectos reponsive
+    viewport es el tamaño de la pantaña-->
+
+    <link rel="stylesheet"href="./style.css">
+    <!--Linkea/Enlaza archivos de estilos u otros archivos que necesitemos en nuestro proyecto
+    en este caso con rel le estamos especificando que el documento a enlazar es una hoja de estilo -->
+
+  </head>
+
+
+  
+  <body>
+          <!-- El usuario solo verá lo que está dentro del body. -->
+
+    <!--
+      Existen dos tipos de etiquetas en body: De contenido y contenedoras.
+      
+      -  Las etiquetas de contenido son las encargadas de mostrar texto, imágenes, videos, 
+         cualquier cosa que se vaya poder renderizar en el proyecto 
+
+      -  Las etiquetas contenedoras son las que nos van a permitir darle estructura y organizar nuestro contenido.
+        ,maquetacion y layout a esto se le llama html semantico, cada seccion de la pagina con su respectivo contenedor 
+    -->
+
+    <header><!--Sección superior de nuestro website--> 
+
+        <nav></nav><!--Sección de navegación de nuestro website, siempre dentro del header-->
+  
+    </header>
+
+        <main><!--Main es el contenido central de nuestro website, "la parte del medio"-->
+  
+
+            <section> 
+                <!--Nuestro website puede estar divido por secciones, por ejemplo platzi tiene 3: 
+                El navegador de cursos y rutas, el feed y nuestras rutas de aprendizaje-->
+
+
+                <h1>Soy un titulo de tamaño h1</h1> 
+                <!--Títulos, muestran el texto más grande y con negrilla. Existen desde el h1 al h6-->
+  
+
+                <article>
+                <!--Contenido independiente de la página. Es reutilizable-->
+                </article>
+  
+                <ul><!--Lista desordenada: Sin numerar-->
+      
+                <li>Elemento uno<!--Item List. Elementos de la lista--></li>
+                <li>Elemento dos</li>
+                    
+                </ul>
+ 
+                
+                <ol><!--Lista ordenada: Numerada-->
+    
+                    <li>Elemento uno<!--Item List. Elementos de la lista--></li>
+                    <li>Elemento dos</li>
+    
+                </ol>
+
+                <p>Soy un texto generado con la etique de parrafo</p><!--Párrafo, texto-->
+      
+   
+                <a href="#">Soy un link que no me lleva a ninguna parte</a><!--Enlaces/links que nos permitirán movernos entre páginas.-->
+                <!-- El # es para que no se recarge la pagina  -->
+                <a href="https://www.notion.so/Curso-definitivo-de-HTML-y-CSS-d952f5019fb14a9baba4546fa7a8a13a#fb214f1ac95b4d1e804ed05fd07dc60c" target="_blank"><br>Apuntes del curso con los que me orienté</a>
+        
+            </section>
+  </body>
+
+</html>

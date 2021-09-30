@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiqueta de video</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Etiqueta video</h1>
+
+            <video src="/videos/One Last Kiss 【1.0】.mp4"  width="70%" controls preload="auto"></video>
+            <!-- 
+                src: Atributo que tiene como valor la dirección/ubicación del video
+                
+                controls: Es un atributo que no tiene valor que sirve para activar los controles de vídeo.
+                
+                preload: Permite que el video se empiece a renderizar cuando la página se empiece a crear en el navegador,
+                 esto es para que no haya mucho tiempo de espera.
+            -->
+
+            <br>
+
+            <video  width="70%" controls preload="auto">
+                <source src="/videos/fellsomething2.wmv">
+                <source src="/videos/fellsomething.mp4">
+            </video>
+              <!-- 
+                source: Va dentro de la etiqueta video y se usa para especificar varias rutas en caso de que el navegador 
+                no entienda algún formato de vídeo. Se pueden poner varios formatos y el navegador usará el que más le convenga. 
+                Para usarlo se elimina el atributo src de la etiqueta video y se  pone la etiqueta source con su respectivo src. 
+              -->
+
+              <br>
+
+              <video src="/videos/Call Your Name.mp4#t=14,263" width="70%" controls preload="auto"></video>
+              <!-- 
+                  Si queremos que el vídeo inicie y termine en un tiempo específico, debemos usar estos atributos dentro del src:
+
+                    #t=: Indica el tiempo en el cual empezará y terminará la reproducción del video.
+                    14,263: Son los valores en segundos. Donde 14 es el segundo en el que inicia y 263 es donde finaliza la reproducción del video.
+                    Estos valores deben ir separados solo por una coma.
+                     -->
+        </section>
+    </main>
+    
+</body>
+</html>

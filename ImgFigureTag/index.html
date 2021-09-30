@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imágenes</title>
+</head>
+<body>
+  <main>
+    <section>
+      <img src="/pictures/pexels-eberhard-grossgasteiger-2098427.jpg" alt="Cielo oscuro estrellado en zona montañosa" width="20%" >
+      <!-- 
+        src: indicar donde está la imagen, puede ser desde nuestras carpetas o desde una URL
+        alt: descripción de la imagen que aparecerá cuando la imagen no se logre renderizar(enfocado en temas de accesibilidad)
+        width: representa el ancho de la imagen.
+      -->
+  
+  
+    
+     <figure>  <!-- figure a diferencia de img nos permite agregar varias imagenes -->
+        <img src="/pictures/pexels-laros-lin-7632598.jpg" alt="Carretera con tema oscuro" width="20%">
+        <figcaption>Fotografía  de una carretera nublada que esencia a oscuridad</figcaption>
+        <img src="/pictures/pexels-yuting-gao-1567069.jpg" alt="Dos personas admirando la ciudad nocturna desde lo alto" width="30%">
+        <figcaption>Dos personas admirando la ciudad y el cielo nocturno desde lo alto</figcaption>
+          <!-- figcaption: Agrega una descripción a la imagen que será visible en la parte inferior de esta.  -->
+            <!-- Semánticamente no es corrector utilizar o insertar una imagen dentro de un div, lo correcto es utilizar la etiqueta contenedora figure -->
+      </figure>
+<!-- 
+      Es importante considerar que la etiqueta FIGURE no es únicamente para imágenes:
+      El elemento HTML <figure> representa contenido independiente, a menudo con un título.
+      Si bien se relaciona con el flujo principal, su posición es independiente de éste. 
+      Por lo general, se trata de una imagen, una ilustración, un diagrama, un fragmento de código, 
+      o un esquema al que se hace referencia en el texto principal, pero que se puede mover a otra página
+      o a un apéndice sin que afecte al flujo principal. -->
+
+    </section>
+  </main>
+
+</body>
+</html>

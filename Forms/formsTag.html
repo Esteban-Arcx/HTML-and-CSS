@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+ 
+</head>
+<body>
+    <main>
+          
+        <section>
+            <H2>Formularios</H2>
+
+            
+            <h4>Como no hacer un formulario</h4>
+
+            <div>
+              <input type="text" />
+              <input type="text" />
+              <input type="text" />
+              <input type="text" />
+            </div>
+
+
+
+            <h4>Como si hacer un formulario</h4>
+
+            <form action="">
+
+              <label for="nombre-es">
+                <span>¿Cual es tu nombre?</span>
+                <input type="text" id="nombre-es" placeholder="Nombre"/>
+              </label>
+
+              <br>
+
+              <label for="inicio-platzi">
+                <span>¿Que día comenzaste en Platzi?</span>
+                <input type="date" id="inicio-platzi" />
+              </label>
+
+              <br>
+
+              <label for="horario">
+                <span>¿En que horario estudias?</span>
+                <input type="time" id="horario" />
+              </label>
+
+            </form>
+            <!-- 
+              form: Es semántico, nos permite decirle al navegador que lo que usaremos 
+              es un formulario y que el usuarios va a interactuar con el. Es una etiqueta contenedora.
+
+              action: Es la URL o base de datos a donde se va a enviar la información.
+
+              label: Es una etiqueta contenedora de input. Recibe un atributo importante llamado for y el 
+              cual debe ser el mismo que el id del input.
+
+              span: es un contenedor en línea que se utiliza para marcar una parte de un texto, o una parte de un documento.
+
+              type: Sirve para definir el tipo de nuestro input
+
+              placeholder: Agrega información dentro del input. Sirve para 
+              indicarle al usuario un ejemplo sobre lo que debe hacer. 
+            -->
+
+
+        </section>  
+    </main>
+    
+</body>
+</html>

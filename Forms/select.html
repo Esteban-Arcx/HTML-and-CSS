@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+
+    <main>
+        <section>
+
+            <h2>Select</h2>
+
+            <h4>Sin Scroll</h4>
+            <select name="cursos" id="">
+              <option value="JavaScript">JavaScript</option>
+              <option value="HTML5">HTML5</option>
+              <option value="CSS3">CSS3</option>
+              <option value="Web Standards">Web Standards</option>
+            </select>
+            <!-- 
+              Select Sirve de contenedor para la etiqueta option, la cual muestra los valores 
+             de la lista que crea select 
+             -->
+
+            <h4>Con Scroll (buenas practicas)</h4>
+
+            <input list="cursos-2.0"/>
+            <datalist id="cursos-2.0">
+              <option value="Java"></option>
+              <option value="Python"></option>
+              <option value="Ruby"></option>
+              <option value="Go"></option>
+              <option value="SQL"></option>
+              <option value="C"></option>
+              <option value="C#"></option>
+              <option value="C++"></option>
+           </datalist>
+           <!-- 
+             datalist junto a input le permite al usuario buscar en caso 
+             de que la lista sea muy larga o escribir directamente la opción
+           -->
+
+
+
+           <br><br>
+
+        </section>
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autocomplete y Require</title>
+</head>
+<body>
+    <main>
+        <section>
+
+            <h2>Autocomplete y require</h2>
+
+            <form action="">
+              <label for="nombre">
+                <span>¿Cuál es tu nombre?</span>
+                <input type="text" placeholder="Nombre" name="nombre" id="nombre" autocomplete="name" required/>
+              </label>
+
+              <br><br>
+
+            <form action="">
+              <label for="correo">
+                <span>¿Cuál es tu correo?</span>
+                <input type="email"  placeholder="alguien@example.com" name="correo" id="correo" autocomplete="email"  required>
+              </label>
+              
+              <br><br>
+
+            <form action="">
+              <label for="pais">
+                <span>¿En qué país vives?</span>
+                <input type="text" placeholder="pais" name="pais" id="pais" autocomplete="country"  required>
+              </label>
+              
+              <br><br>
+
+            <form action="">
+              <label for="cp">
+                <span>¿Cuál es tu código postal?</span>
+                <input type="text" placeholder="123456" name="cp" id="cp" autocomplete="postal-code"  required>
+              </label>
+
+              <br><br>
+
+              <input type="submit"/>
+
+            </form>
+
+            <!-- 
+              autocomplete: Completa el input con los datos que tenga guardado el navegador del usuario. 
+              Recibe valores dependiendo de lo que busquemos autocompletar como por ejemplo name, email, 
+              address entre otros .Es útil para que el usuario no tenga que volver a llenar los datos que 
+              ya ha dado en otros formularios . 
+              
+              require: Es un atributo sin valor y le indica al usuario que debe rellenar la información 
+              de los campos, si no lo llena, no podrá enviar el formulario o avanzar.
+             -->
+
+             
+        </section>
+    </main>
+</body>
+</html>

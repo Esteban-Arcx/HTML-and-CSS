@@ -21,6 +21,13 @@ HTML y CSS, los lenguajes de maquetación que permiten definir la estructura y e
 - [Index y su estructura básica: head ](#head)
 - [Index y su estructura básica: body](#body)
 - [Anatomía de una etiqueta HTML](#anatomia-html-tag)
+- [Etiquetas multimedia](#etiquetas-multimedia)
+  - [Optimización de imágenes](#opt-imágenes)
+  - [Tipos de imágenes](#tipos-imagenes)
+  - [Etiqueta img](#img)
+  - [Etiqueta figure](#figure)
+  - [Etiqueta video](#video)
+  
 
 
 
@@ -41,7 +48,7 @@ Dominando estas tecnologías ya se puede escalar a algunos frameworks, librería
 
 #### Frameworks de CSS
 - <a href="https://getbootstrap.com/">Bootstrap </a>
-- <a href=" https://get.foundation/">Foundation CSS</a>
+- <a href="https://get.foundation/">Foundation CSS</a>
 - <a href="https://materializecss.com/">Materialize CSS</a>
 
 #### Frameworks y Librerías de JS
@@ -115,13 +122,13 @@ Por último, debe conocer de bases de datos relacionales y bases de datos no r
 ## ¿Qué es Full Stack Developer?<a name="¿Qué-es-Full-Stack-Developer?"></a>
 
 
-Un  Full Stack Developer es la fusión de un  Frontend Developer y todas las cosas que hace un Backend Developer  en una sola persona, un full stack Developer no maneja por completo todas las tecnologías de ambas partes, de hecho no es recomendado y no es sano, ya que el desarrollo web evoluciona muy rápido y cada dos o tres meses tenemos algo nuevo.
+Un  Full Stack Developer es la fusión de un  Frontend Developer y todas las cosas que hace un Backend Developer  en una sola persona, pero no maneja por completo todas las tecnologías de ambas partes, de hecho no es recomendado y no es sano, ya que el desarrollo web evoluciona muy rápido y cada dos o tres meses tenemos algo nuevo.
  
 <figure align="center">
     <img src="https://2.bp.blogspot.com/-ysM3KQvoT6M/WpSGL0Ho3yI/AAAAAAAAbsg/ca2Oof_vW0osVFHU6ratej9xpz94V7YHwCLcBGAs/s1600/frontend%2Bbackend.jpg" width="100%">
 </figure>
 
-Realmente un full stack es alguien que entiende muy bien cómo funciona un producto web de principio a fin, desde que esta en idea en forma de mockup hasta la liberación de la aplicación a producción. Entiende las tecnologías de que se usan tanto en el Frontend como en el Backend pero se especializa en una  área especifica.
+Un full stack es alguien que entiende muy bien cómo funciona un producto web de principio a fin, desde que esta en idea en forma de mockup hasta la liberación de la aplicación a producción. Entiende las tecnologías que se usan tanto en el Frontend como en el Backend pero se especializa en una  área especifica.
  
 
 <div align="right">
@@ -163,7 +170,7 @@ Dejan de ser paginas y se convierten mas en aplicaciones, actualizan su informac
 
 ## ¿Qué es HTML? <a name="que-es-html"></a>
 
-HTML es un lenguaje interpretado, es el código que se utiliza para estructurar el contenido de una web,  darle sentido y propósito. es un estándar, así que no importa desde que navegador, que dispositivo se ejecute, el código sigue siendo el mismo.
+Es un lenguaje interpretado, es el código que se utiliza para estructurar el contenido de una web,  darle sentido y propósito. es un estándar, así que no importa desde que navegador o dispositivo se ejecute, el código será siendo el mismo.
 
 HTML son las siglas de <b>Hyper Text Markup Language</b>(Lenguaje de Marcado de Hipertexto).
 
@@ -426,7 +433,7 @@ La apertura y el cierre siempre llevan el nombre de la etiqueta HTML que se usar
 
 #### Atributo y valor
 
-El atributo son distintos ingredientes o modificaciones que puedes hacer a la etiqueta. Como por ejemplo colocarle un ID, especificar algún evento (como los casos de onsubmit y onclick ), o modificar el aspecto visual (como cambiarle el color a un texto).
+El atributo son distintos ingredientes o modificaciones que puedes hacer a la etiqueta. Como por ejemplo colocarle un ID, especificar algún evento (como los casos de onsubmit y onclick ), o modificar el aspecto visual (como cambiarle el color a un texto).Pueden ser opcionales u obligatorios
 
 El valor es la especificación de estas modificaciones. ¿Qué debe suceder después del onsubmit? ¿Qué color debe tener el texto? ¿Qué ID tendrá la etiqueta?
 
@@ -434,6 +441,171 @@ El valor es la especificación de estas modificaciones. ¿Qué debe suceder desp
 #### Contenido
 
 El contenido de la etiqueta es la información que queremos que sea afectada por la etiqueta con sus modificaciones (atributos).
+
+
+<div align="right">
+  <small><a href="#tabla-de-contenido--">&uarr; volver al inicio</a></small>
+</div>
+
+
+## Etiquetas multimedia <a name="etiquetas-multimedia"></a>
+
+Son el tipo de etiquetas que usaremos para insertar imágenes vídeos y audio.
+
+<figure align="center">
+    <img src="https://static.platzi.com/media/user_upload/Carrusel-html-05-d8200501-20bc-434c-b15c-c855d5528393.jpg" width="100%">
+</figure>
+
+
+<div align="right">
+  <small><a href="#tabla-de-contenido--">&uarr; volver al inicio</a></small>
+</div>
+
+
+## Optimización de imágenes <a name="opt-imágenes"></a>
+
+Es importante saber que no es óptimo cargar imágenes en nuestro sitio web que pesen mucho porque tardan bastante tiempo en renderizarse y le dan una mala experiencia al usuario.
+
+
+<figure align="center">
+    <img src="https://i.imgur.com/Oryrq9q.png" width="20%">
+</figure>
+
+
+El tamaño promedio de una imagen debe ser de 70 a 100 kilobytes, con las siguientes herramientas web podremos optimizar nuestras imágenes.
+
+- [TinyPNG](https://tinypng.com/): Mejora y reduce el tamaño de las imágenes png y jpg.
+
+- [Verexif](https://www.verexif.com/): Elimina los metadatos de la imagen. Se usa para imágenes que vienen de una cámara.
+
+- [Compressor](https://compressor.io/): Comprime sin perder calidad 
+
+- [PicResize](https://picresize.com/): Comprime y recorta el tamaño de la imagen
+
+- [Convertio](https://convertio.co/es/): convierte jpg, png a svg, puede convertir diferentes formatos a otros formatos.
+
+
+<div align="right">
+  <small><a href="#tabla-de-contenido--">&uarr; volver al inicio</a></small>
+</div>
+
+
+## Tipos de imágenes <a name="tipos-imagenes"></a>
+
+Existen 2 tipos de imágenes: <b>Con Perdida (Lossy</b>) y <b>sin Perdida (Lossless)</b>, esto dependerá del formato que manejemos.
+ 
+- <b>Lossy</b>: Este tipo de imágenes se refiere a imágenes pequeñas y que pierden calidad (comparadas con las lossless). Nos ayudan a mejorar el tiempo de carga de nuestro website pero perdemos calidad. Algunos de estos formatos son:
+
+  - <b>JPG (Photographic Experts Group)</b>: Al comprimirla, pierde calidad.
+
+- </b>Lossless</b>: Son imágenes que no pierden calidad,su calidad siempre se mantendrá igual. Son más lentas en cargar y consume más recursos, pero tendremos unas mejores imágenes sin importar que se comprimen. Algunos formatos de estas son:
+
+  - <b>GIF</b> : Graphics Interchange Format
+  -  <b>PNG(Portable Network Graphics)</b>: PNG 8 equivale a 258 colores y PNG 24 equivale a más de 256 colores.
+  -  <b>SVG (Vector)( Scalable Vector Graphics )</b>: Se usan para pantallas de retina. Nunca pierden calidad.
+
+<figure align="center">
+    <img src="https://static.platzi.com/media/user_upload/table%20for%20diferent%20images-42fdf349-a492-4ff5-afbd-1f437c804e4a.jpg" width="100%">
+</figure>
+
+		
+Páginas donde encontrarás recursos gráficos gratuitos:
+
+
+- [FlatIcon](https://www.flaticon.com/)
+- [Freepik](https://www.freepik.es/)
+- [Unsplash](https://unsplash.com/)
+- [Pexels](https://www.pexels.com/es-es/)
+  
+<div align="right">
+  <small><a href="#tabla-de-contenido--">&uarr; volver al inicio</a></small>
+</div>
+
+
+## Etiqueta img <a name="img"></a>
+
+La Etiqueta `<img>` nos va a permitir insertar una imagen
+```HTML
+<img src="" alt="" title="" width="" >
+
+```
+
+- `<img>`: Nos ayuda a renderizar las imágenes
+ 
+-  `src=""`: Indicar donde está la imagen, puede ser desde nuestras carpetas o desde una URL
+ 
+- `alt=""`: Descripción de la imagen que aparecerá cuando la imagen no se logre renderizar(enfocado en temas de accesibilidad)
+
+- `title=""`: No es exclusivo para imágenes, sirve para cualquier elemento HTML, lo que hace es agregar un título que será visible cuando se pose el puntero del mouse sobre el elemento
+ 
+- `width=""`: Representa el ancho de la imagen. También existe el atributo height que representa el alto de la imagen. Los valores de estos atributos se pueden dar en pixeles(px) o porcentaje(%).
+
+
+<div align="right">
+  <small><a href="#tabla-de-contenido--">&uarr; volver al inicio</a></small>
+</div>
+
+
+## Etiqueta figure <a name="figure"></a>
+
+La etiqueta figure genera un contenedor para la imagen y nos permite agregar varias de estas.
+
+```HTML
+<figure> 
+
+  <img src="" alt="" title="" width=""> 
+  <figcaption>Descripción de imagen</figcaption> 
+
+  <img src="" alt="" title="" width=""> 
+  <figcaption>Descripción de imagen</figcaption> 
+
+</figure>
+```
+- `<figcaption>`: Agrega una descripción a la imagen que será visible en la parte inferior de esta.
+
+Es importante saber que la etiqueta `<figure> ` no es únicamente para imágenes, representa contenido independiente, a menudo con un título,  en este caso semánticamente no es corrector utilizar o insertar una imagen dentro de un div,  lo correcto es utilizar esta etiqueta contenedora, `<figure> `.
+
+
+<div align="right">
+  <small><a href="#tabla-de-contenido--">&uarr; volver al inicio</a></small>
+</div>
+
+
+## Etiqueta video <a name="video"></a>
+
+La etiqueta video es la que nos permite subir un video.
+
+```HTML
+<video src="" width="" controls preload="auto"></video>
+
+```
+
+- `src=""`: Atributo que tiene como valor la dirección/ubicación del video
+                
+- `controls`: Es un atributo que no tiene valor, sirve para activar los controles de vídeo.
+                
+- `preload="auto"`: Permite que el video se empiece a renderizar cuando la página se empiece a crear en el navegador, esto es para que no haya mucho tiempo de espera al reproducir el video.
+
+
+```HTML
+<video width="" controls preload="auto">
+
+	<source src="ejemplo.wmv"> 
+	<source src="ejemplo.mp4">
+	
+</video>
+```
+
+- `<source>`:  Va dentro de la etiqueta `<video>` y se usa para especificar varias rutas en caso de que el navegador  no entienda algún formato de vídeo. Se pueden poner varios formatos y el navegador usará el que más le convenga. Para usarlo se elimina el atributo `src=""` de la etiqueta `<video>` y se  pone la etiqueta` <source>` con su respectivo atributo`src=""`. 
+
+```HTML
+<video src="ejemplo.mp4#t=14,263" width="" controls preload="auto"></video>
+```
+- Si queremos que el vídeo inicie y termine en un tiempo específico, debemos usar  `#t=n,n`  al final de la ruta del video:
+
+	- `#t=`: Indica el tiempo en el cual empezará y terminará la reproducción del video.
+	
+	- `14,263`: Son los valores en segundos. Donde 14 es el segundo en el que inicia y 263 es donde finaliza la reproducción del video. Estos valores deben ir separados solo por una coma.
 
 
 <div align="right">

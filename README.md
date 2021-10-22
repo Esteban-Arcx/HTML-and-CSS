@@ -27,17 +27,22 @@ HTML y CSS, los lenguajes de maquetación que permiten definir la estructura y e
   - [Etiqueta img](#img)
   - [Etiqueta figure](#figure)
   - [Etiqueta video](#video)
-  
-
+- [Formularios](#formularios)
+  - [Etiqueta form e input](#form-input)
+  - [Calendario](#calendario)
+  - [Autocomplete y require](#autocomplete-require)
+  - [Select](#select)
+  - [Input type submit vs Button Tag](#input-button)
+- [HTML Cheat Sheet](#HTML-Cheat-Sheet)
 
 
 ## ¿Qué es Frontend?<a name="Qué-es-Frontend"></a>
 
 Frontend es la parte de un programa o dispositivo a la que un usuario puede acceder directamente. Son todas las tecnologías de diseño y desarrollo web que corren en el navegador y que se encargan de la interactividad con los usuarios y el frontend developer es el que va a manejar las cosas del lado del cliente, las interacción que tienes en una página web, las animaciones y los estilos.
 
-<figure align="center">
+<p align="center">
     <img src="https://i.imgur.com/uWJngOH.png" width="100%">
-</figure>
+</p>
 
 Para convertirse en Frontend Developer principalmente se debe entender y dominar perfectamente estos tres estándares Web:
  
@@ -74,9 +79,9 @@ Dominando estas tecnologías ya se puede escalar a algunos frameworks, librería
 
 Backend es la capa de acceso a datos de un software o cualquier dispositivo,  no es directamente accesible por los usuarios, además contiene la lógica de la aplicación que maneja dichos datos. El Backend también accede al servidor, que es una aplicación especializada que entiende la forma como el navegador solicita cosas.
 
-<figure align="center">
+<p align="center">
     <img src="https://i.imgur.com/s9Iia0t.png" width="100%">
-</figure>
+</p>
 
 Un Backend Developer es lo opuesto a lo que hace un frontend, pues este es aquel que trabaja del lado del servidor manejando toda la lógica que hay detrás de una petición dada por el navegador.
 
@@ -124,9 +129,9 @@ Por último, debe conocer de bases de datos relacionales y bases de datos no r
 
 Un  Full Stack Developer es la fusión de un  Frontend Developer y todas las cosas que hace un Backend Developer  en una sola persona, pero no maneja por completo todas las tecnologías de ambas partes, de hecho no es recomendado y no es sano, ya que el desarrollo web evoluciona muy rápido y cada dos o tres meses tenemos algo nuevo.
  
-<figure align="center">
+<p align="center">
     <img src="https://2.bp.blogspot.com/-ysM3KQvoT6M/WpSGL0Ho3yI/AAAAAAAAbsg/ca2Oof_vW0osVFHU6ratej9xpz94V7YHwCLcBGAs/s1600/frontend%2Bbackend.jpg" width="100%">
-</figure>
+</p>
 
 Un full stack es alguien que entiende muy bien cómo funciona un producto web de principio a fin, desde que esta en idea en forma de mockup hasta la liberación de la aplicación a producción. Entiende las tecnologías que se usan tanto en el Frontend como en el Backend pero se especializa en una  área especifica.
  
@@ -138,9 +143,9 @@ Un full stack es alguien que entiende muy bien cómo funciona un producto web de
 
 ## Páginas Estáticas vs. Dinámicas <a name="Páginas-Estáticas-Dinámicas"></a>
 
-<figure align="center">
+<p align="center">
     <img src="https://i.imgur.com/WZUTphN.png" width="100%">
-</figure>
+</p>
 
 #### Páginas estáticas
 
@@ -183,9 +188,9 @@ HTML son las siglas de <b>Hyper Text Markup Language</b>(Lenguaje de Marcado de 
 
 Esta es la anatomía que vamos a encontrar en la mayoría de páginas web.
 
-<figure align="center">
+<p align="center">
     <img src="https://i.imgur.com/Arj4X0j.png" width="100%">
-</figure>
+</p>
 
 - <strong>Container</strong>: Contenedor principal
 - <strong>Header</strong>: Cabecera de la página
@@ -195,9 +200,9 @@ Esta es la anatomía que vamos a encontrar en la mayoría de páginas web.
 
 Ejemplo:
 
-<figure align="center">
+<p align="center">
     <img src="https://i.imgur.com/fuozodm.png" width="100%">
-</figure>
+</p>
 
 
 <div align="right">
@@ -422,9 +427,9 @@ Mas etiquetas y elementos de HTML  <a href="https://developer.mozilla.org/en-US/
 
 ## Anatomía de una etiqueta HTML  <a name="anatomia-html-tag"></a>
 
-<figure align="center">
+<p align="center">
     <img src="https://i.imgur.com/wafq4Om.png" width="100%">
-</figure>
+</p>
 
 #### Apertura y cierre
 
@@ -452,9 +457,9 @@ El contenido de la etiqueta es la información que queremos que sea afectada por
 
 Son el tipo de etiquetas que usaremos para insertar imágenes vídeos y audio.
 
-<figure align="center">
-    <img src="https://static.platzi.com/media/user_upload/Carrusel-html-05-d8200501-20bc-434c-b15c-c855d5528393.jpg" width="100%">
-</figure>
+<p align="center">
+    <img src="https://static.platzi.com/media/user_upload/Carrusel-html-05-d8200501-20bc-434c-b15c-c855d5528393.jpg" width="70%">
+</p>
 
 
 <div align="right">
@@ -467,9 +472,9 @@ Son el tipo de etiquetas que usaremos para insertar imágenes vídeos y audio.
 Es importante saber que no es óptimo cargar imágenes en nuestro sitio web que pesen mucho porque tardan bastante tiempo en renderizarse y le dan una mala experiencia al usuario.
 
 
-<figure align="center">
-    <img src="https://i.imgur.com/Oryrq9q.png" width="20%">
-</figure>
+<p align="center">
+    <img src="https://i.imgur.com/mfkaHvx.png" width="20%">
+</p>
 
 
 El tamaño promedio de una imagen debe ser de 70 a 100 kilobytes, con las siguientes herramientas web podremos optimizar nuestras imágenes.
@@ -504,9 +509,9 @@ Existen 2 tipos de imágenes: <b>Con Perdida (Lossy</b>) y <b>sin Perdida (Lossl
   -  <b>PNG(Portable Network Graphics)</b>: PNG 8 equivale a 258 colores y PNG 24 equivale a más de 256 colores.
   -  <b>SVG (Vector)( Scalable Vector Graphics )</b>: Se usan para pantallas de retina. Nunca pierden calidad.
 
-<figure align="center">
+<p align="center">
     <img src="https://static.platzi.com/media/user_upload/table%20for%20diferent%20images-42fdf349-a492-4ff5-afbd-1f437c804e4a.jpg" width="100%">
-</figure>
+</p>
 
 		
 Páginas donde encontrarás recursos gráficos gratuitos:
@@ -611,4 +616,242 @@ La etiqueta video es la que nos permite subir un video.
 <div align="right">
   <small><a href="#tabla-de-contenido--">&uarr; volver al inicio</a></small>
 </div>
+
+
+## Formularios <a name="formularios"></a>
+
+<p align="center">
+    <img src="https://static.platzi.com/media/user_upload/Carrusel-html-08-4d0e4b19-5dbc-493d-91d8-0aafc5877571.jpg" width="70%">
+</p>
+
+
+Los formularios son la forma en la cual podemos empezar a generar interacción con los usuarios.
+
+Se dice que <strong>"El mejor formulario, es cuando no lo hay"</strong> esto, ya que para el usuario el llenar o completar un formulario se vuelve tedioso haciendo que en muchas ocasiones termine abandonando nuestra página, es por eso que debemos generar buenos formularios para los usuarios, cortos, fáciles de usar y directos.
+
+
+<div align="right">
+  <small><a href="#tabla-de-contenido--">&uarr; volver al inicio</a></small>
+</div>
+
+
+## Etiqueta form e input <a name="form-input"></a>
+
+Para crear un formulario haremos uso de la etiqueta `<form>`
+
+```HTML
+<form action=""> 
+	<label for="nombre-es"> 
+    <span>¿Cuál es tu nombre?</span> 
+    <input type="text" id="nombre-es" placeholder="Nombre"/> 
+	</label> 
+              
+	<label for="inicio-platzi"> 
+    <span>¿Qué día comenzaste en Platzi?</span> 
+    <input type="date" id="inicio-platzi"/> 
+	</label> 
+              
+	 <label for="horario"> 
+      <span>¿En que horario estudias?</span> 
+      <input type="time" id="horario"/> 
+	</label> 
+</form>
+```
+
+- `<form>`: Es semántico, nos permite decirle al navegador que  usaremos  un formulario y que el usuario va a interactuar con él. Es una etiqueta contenedora.
+ 
+- `action=""`: Aquí es donde se colocaría la URL o base de datos a donde se va a enviar la información.
+ 
+- `<label>`: Es una etiqueta contenedora de input. Recibe un atributo importante llamado for que debe ser el mismo que el id del input.
+ 
+- `<span>`: es un contenedor en línea que se utiliza para marcar una parte de un texto, o una parte de un documento.
+
+- `<input>`: se usa para crear controles interactivos para formularios, nos permite recibir datos del usuario.
+
+- `type=""`: Sirve para definir el tipo de nuestro input
+
+- `placeholder=""`: Agrega información dentro del input. Se utiliza para indicarle al usuario un ejemplo sobre lo que debe llenar. 
+
+<div align="right">
+  <small><a href="#tabla-de-contenido--">&uarr; volver al inicio</a></small>
+</div>
+
+
+##  Calendario <a name="calendario"></a>
+
+Para hacer calendarios con la etiqueta `<form>` hay 2 formas:
+
+<b>Forma Compleja</b>: Tenemos el control de que datos queremos recaudar
+ 
+```HTML
+<form action="">
+
+  <label for="hora">
+    <span>Hora</span>
+    <input type="time" id="hora" name="hora"/>
+  </label>
+
+  <label for="dia">
+    <span>Día</span>
+    <input type="date" id="dia" name="dia"/>
+  </label>
+
+  <label for="semana">
+    <span>semana</span>
+    <input type="week" id="semana" name="semana"/>
+  </label>
+
+  <label for="mes">
+    <span>Mes</span>
+    <input type="month" id="mes" name="mes"/>
+  </label>
+
+  <input type="submit"/>
+
+</form>
+
+```
+
+- `name=""`: Es el nombre del control, el cual es enviado con los datos del formulario.
+-  `<input type="submit"/>`: Es un tipo de input que sirve para envíar el formulario.
+
+
+<b>Forma sencilla</b>: Datos a recaudar preestablecidos, genera un formato de fecha con día, mes, año y hora
+
+```HTML
+<form action=""> 
+
+      <label for="calendario"> 
+        <span>Calendario</span> 
+        <input type="datetime-local" id="calendario" name="calendario"/> 
+      </label> 
+       
+      <input type="submit"/> 
+
+</form>
+```
+
+
+<div align="right">
+  <small><a href="#tabla-de-contenido--">&uarr; volver al inicio</a></small>
+</div>
+
+
+## Autocomplete y require <a name="autocomplete-require"></a>
+
+```HTML
+<form action="">
+	<label for="nombre">
+		<span>¿Cuál es tu nombre?</span>
+		<input type="text" placeholder="Nombre" name="nombre" id="nombre" autocomplete="name" required/>
+	</label>
+</form>
+```
+- `autocomplete`: Completa el input con los datos que tenga guardado el navegador del usuario. Recibe valores dependiendo de lo que busquemos autocompletar como por ejemplo name, email, address, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">entre otros</a>. Es útil para que el usuario no tenga que volver a llenar los datos que ya ha dado en otros formularios  
+
+- `require`: Le indica al usuario que debe rellenar la información de los campos, Si no lo llena, no podrá enviar el formulario o avanzar.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido--">&uarr; volver al inicio</a></small>
+</div>
+
+
+## Select <a name="select"></a>
+
+Hay 2 formar de crear una lista para seleccionar entre varias opciones. 
+
+<b>Sin Scroll</b>
+
+```HTML
+<select name="cursos" id=""> 
+
+	<option value="JavaScript">JavaScript</option> 
+	<option value="HTML5">HTML5</option> 
+	<option value="CSS3">CSS3</option> 
+	<option value="Web Standards">Web Standards</option>
+	 
+</select>
+```
+- `<select>`: Sirve de contenedor para la etiqueta `<option>`, la cual muestra los valores de la lista que crea `<select>`.
+
+- `value=""`:  debe ser igual al nombre de la opción, ya que el valor que tenga  es lo que se va a guardar y enviar a la base de datos, sin este atributo la opción seleccionada se enviaría en cero.
+
+<b>Con Scroll</b>
+
+```HTML
+<input list="cursos-2.0"/> 
+<datalist id="cursos-2.0"> 
+
+	<option value="Java"></option> 
+	<option value="Python"></option> 
+	<option value="Ruby"></option> 
+	<option value="Go"></option> 
+	<option value="SQL"></option> 
+	<option value="C"></option> 
+	<option value="C#"></option> 
+	<option value="C++"></option> 
+	
+</datalist>
+```
+
+- `<datalist>` junto a `<input>` le permite al usuario buscar en caso de que la lista sea muy larga o escribir dentro del input, y filtrar los resultados de la lista.
+
+- Con `<datalist>` no hay necesidad de colocar texto(Contenido de la etiqueta `<option>`), ya que lo que haya en `<value>` es lo que se mostrara en pantalla.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido--">&uarr; volver al inicio</a></small>
+</div>
+
+
+## Input type submit vs Button Tag <a name="input-button"></a>
+
+Podemos crear botones de dos maneras diferentes
+
+1. Usando`<input type="submit"/>`
+
+```HTML
+<input type="submit" value="Enviar a base de datos"/>
+```
+
+- `value=""`: Nos permite cambiar el mensaje del botón que tiene por defecto.
+
+2. Usando `<button type="submit">`
+
+```HTML
+<button type="submit"> 
+	Enviar formulario 
+</button>
+```
+- `type="submit"`: Permite que  el botón se pueda utilizar en formularios 
+
+Básicamente, debemos usarlos así:
+ 
+- <b>Input type submit</b>:  Lo utilizaremos solo en los formularios.
+ 
+- <b>Button</b>: Lo utilizaremos en cualquier otro tipo de botón dentro de nuestro proyecto.
+
+
+<div align="right">
+  <small><a href="#tabla-de-contenido--">&uarr; volver al inicio</a></small>
+</div>
+
+
+## HTML Cheat Sheet <a name="HTML-Cheat-Sheet"></a>
+
+<p align="center">
+    <img src="https://static.platzi.com/media/public/uploads/sheet-html_78e6f04d-2ecb-472a-a36c-582b9fc4fb6f.png" width="100%">
+</p>
+
+
+<div align="right">
+  <small><a href="#tabla-de-contenido--">&uarr; volver al inicio</a></small>
+</div>
+
+
+
+
+
+
+
+
 
